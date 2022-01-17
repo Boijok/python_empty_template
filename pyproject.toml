@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python_empty_template"
+
+version = "0.0.1"
+description = "Utilities for python"
+authors = ["dev name <dev_email@mail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+typing-extensions = "^3.7.4"
+pydantic = "^1.8.1"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+pre-commit = "^2.11.0"
+pytest = "^6.2.2"
+flake8 = {version = "^3.8.4"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
